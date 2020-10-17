@@ -3,3 +3,87 @@ $primary-color: #0065FC;
 $secondary-color: #DEEBFF;
 $third-color: #F2F2F2;
 */
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: "Raleway";
+
+}
+header {
+    margin-top: 30px;
+}
+nav ul {
+    display: flex;
+}
+li {
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.3rem;
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a:hover {
+    color: #0065fc;
+    border-top: 4px solid #0065fc;
+    padding-top: 52px;
+}
+.blue {
+    color: #0065fc;
+}
+h1 {
+    font-size: 1.42rem;
+}
+h2 {
+    font-size: 1rem;
+    margin-top: -10px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+#container--input {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+.text--input {
+    padding: 14px;
+    border: 1px solid #f2f2f2;
+    width: 220px;
+    font-size: 19px;
+    outline: none;
+}
+.btn--first {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f2f2f2;
+    font-size: 19px;
+    width: 20px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+}
+.btn--second {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065fc;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #0065fc;
+}
+.btn--first,
+.btn--second {
+    padding: 14px;
+    font-size: 19px;
+}
+.container--header {
+    display: flex;
+    justify-content: space-between;
+}
