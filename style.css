@@ -8,8 +8,8 @@ $third-color: #F2F2F2;
 body {
     margin: 0;
     padding: 0;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
     font-family: "Raleway";
 }
 header {
@@ -78,9 +78,9 @@ h2 {
     text-align: center;
     border: 1px solid #0065fc;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .btn--first,
 .btn--second {
@@ -141,4 +141,104 @@ h2 {
     margin-right: 15px;
     font-size: 12px;
     color: #0065fc;
+}
+/*Section hergement + les plus populaires */
+#container--section--second {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#container--hebergement {
+    width: 67%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+#container--hebergement h1 {
+    margin-left: 16px;
+    margin-top: 40px;
+}
+.afficher--plus {
+    margin-left: 16px;
+}
+.template--fig {
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    width: 260px;
+    padding: 6px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: 10px;
+}
+figure img {
+    width: 260px;
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+figcaption {
+    line-height: 2px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.name--location {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.cost--location {
+    margin-top: 23px;
+}
+figcaption i {
+    color: #0065fc;
+}
+/*container populaire */
+#container--populaire {
+    width: 440px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#container--populaire h1 {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.figure--populaire {
+    margin-top: 16px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 6px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+}
+.figure--populaire img {
+    width: 160px;
+    height: 150px;
+    border-radius: 10px 0px 0px 10px;
+}
+.alignement--populaire {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 160px;
+    margin-left: 20px;
+}
+.stars {
+    color: #0065fc;
+    margin-top: 40px;
+}
+.cost--location--populaire {
+    margin-top: -10px;
+}
+.name--location--populaire {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
