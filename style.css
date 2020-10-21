@@ -150,7 +150,7 @@ h2 {
     justify-content: space-between;
 }
 #container--hebergement {
-    width: 67%;
+    width: 1010px;
     background-color: #f2f2f2;
     border-radius: 15px;
 }
@@ -165,18 +165,20 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
-figure {
-    width: 260px;
+.figure--heberge {
+    width: 293px;
     padding: 6px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 15px;
     margin-top: 10px;
+    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
-figure img {
-    width: 260px;
+.figure--heberge img {
+    width: 293px;
     height: 140px;
     border-radius: 10px 10px 0 0;
+    position: relative;
 }
 figcaption {
     line-height: 2px;
@@ -218,6 +220,7 @@ figcaption i {
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     width: 400px;
+    box-shadow: 2px 1px 5px 2px rgb(209, 209, 209);
 }
 .figure--populaire img {
     width: 160px;
@@ -241,4 +244,83 @@ figcaption i {
 .name--location--populaire {
     font-weight: bold;
     font-size: 1.1rem;
+}
+#container--section--third {
+    margin-top: 30px;
+}
+/*Activités a Marseille */
+.flex--activites {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -3%;
+}
+.regroupe--fig{
+    margin: 20px;
+    margin-left: 5px;
+}
+
+.fig--test {
+    border: 1px solid #f2f2f2;
+    box-shadow: 2px 5px 15px 5px #f2f2f2;
+    width: 306px;
+    padding: 0px;
+    
+    border-radius: 10px;
+}
+.fig--test img {
+    width: 306px;
+    height: 390px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.figca--test {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.fig--test--first {
+    width: 306px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 0px;
+}
+.fig--test--first img {
+    width: 306px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 3px 5px 0px #f2f2f2;
+    padding: 0px;
+}
+
+/*footer*/
+#container--footer {
+    margin-top: 100px;
+    background: #f2f2f2;
+    display: flex;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: 20px;
+    height: 220px;
+    flex-wrap: wrap;
+}
+#first--nav ul {
+    display: flex;
+    flex-direction: column;
+}
+#second--nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+#third--nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.title--li {
+    font-weight: bold;
 }
