@@ -10,18 +10,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Raleway:bold">
     <script src="https://kit.fontawesome.com/2929b156e8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media='screen and (min-width: 940px) and (max-width: 1415px)' href="bigtablet.css" />
+    <link rel="stylesheet" media='screen and (min-width: 600px) and (max-width: 940px)' href="smalltablet.css" />
+    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 600px)' href="phone.css" />
 </head>
 
 <body>
     <!--Logo + navbar-->
     <header>
         <div id="containerHeader">
-            <img src="images/logo/Reservia.svg" alt="Logo reservia">
+            <img src="images/logo/Reservia.svg" class="test" alt="Logo reservia">
             <nav class="Navmenu">
                 <ul class="liMenu">
-                    <li class="liMenu--list liMenu--list_nocolor"><a href="#containerHebergement" class="link--navbar">Hebergement</a></li>
-                    <li class="liMenu--list liMenu--list_nocolor"><a href="#containerActivites" class="link--navbar">Activités</a></li>
-                    <li class="liMenu--list liMenu--list_blue"><a href="#" class="link--navbar">S'inscrire</a></li>
+                    <li class="liMenu--list liMenu--list_nocolor"><a href="#containerHebergement"
+                            class="link--navbar">Hebergement</a></li>
+                    <li class="liMenu--list liMenu--list_nocolor"><a href="#containerActivites"
+                            class="link--navbar">Activités</a></li>
+                    <li class="liMenu--list liMenu--list_blue"><a href="#" class="link--navbar test">S'inscrire</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,8 +41,9 @@
             <input type="texte" class="text--input"></input>
             <div class="btn--second">Rechercher</div>
         </div>
-
-        <div id="containerFiltre">Filtres
+        
+        <span class="filtre--texte">Filtres</span>
+        <div id="containerFiltre"><span class="filtre--texte--desktop">Filtres</span>
             <div class="filtre filtre-dollar"><i class="fas fa-money-bill-wave"></i>Economique</div>
             <div class="filtre"><i class="fas fa-child"></i>Familial</div>
             <div class="filtre"><i class="fas fa-heart"></i>Romantique</div>

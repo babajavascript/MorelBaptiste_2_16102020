@@ -1,0 +1,79 @@
+#containerHeader {
+    flex-direction: column;
+}
+.filtre:hover {
+    transform: none;
+}
+.filtre--texte{
+    display: none;
+}
+.navMenu,
+.liMenu {
+    justify-content: center;
+    padding-right: 80px;
+}
+.liMenu--list {
+    list-style: none;
+}
+.link--navbar {
+    border-top: none;
+    padding-top: 0px;
+}
+.link--navbar:hover {
+    border-top: none;
+}
+/*Section hebergement and populaire*/
+#containerHebergementAndPopulaire {
+    justify-content: center;
+}
+#containerHebergement {
+    width: 1000px;
+    order: 2;
+    margin-top: 20px;
+}
+#containerPopulaire {
+    width: 500px;
+    order: 1;
+}
+/* Activités à Marseille */
+#containerActivites h1 {
+    text-align: center;
+}
+#figure--position--activites {
+    justify-content: center;
+}
+
+.figure--activites--double--larger {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin: 0;
+}
+.figure--activites--double--larger img {
+    height: 151px;
+}
+.figure--activites--double--smaller img {
+    height: 151px;
+}
+.figcaption--activites {
+    align-items: center;
+    margin-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+/*footer*/
+footer {
+    background: #f2f2f2;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-left: -3%;
+    margin-right: -3%;
+}
+#navbar--footer--second ul {
+    margin-left: 0px;
+}
+#navbar--footer--third ul {
+    margin-left: 0px;
+}

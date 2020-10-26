@@ -1,0 +1,113 @@
+#containerHeader {
+    flex-direction: column;
+}
+
+.navMenu,
+.liMenu {
+    justify-content: center;
+    padding-right: 80px;
+}
+.liMenu--list {
+    list-style: none;
+}
+.link--navbar {
+    border-top: none;
+    padding-top: 0px;
+}
+.link--navbar:hover {
+    border-top: none;
+}
+/*Section hebergement and populaire*/
+#containerHebergementAndPopulaire {
+    justify-content: center;
+}
+#containerHebergement {
+    width: 1000px;
+    order: 2;
+    margin-top: 20px;
+}
+#containerPopulaire {
+    width: 500px;
+    order: 1;
+}
+/* filtre */
+#containerFiltre {
+    display: flex;
+    margin-top: 0px;
+    font-weight: 900;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.filtre--texte--desktop{
+    display: none;
+}
+.filtre--texte{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 900;
+    margin-left: 4px;
+}
+.filtre {
+    border: 2px solid rgb(236, 236, 236);
+    padding-right: 16px;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    align-items: center;
+}
+.filtre i {
+    padding: 16px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: blue;
+    background-color: #deebff;
+    margin-left: -2px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border: 1px solid #deebff;
+    width: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Activités à Marseille */
+#containerActivites h1 {
+    text-align: center;
+}
+#figure--position--activites {
+    justify-content: center;
+}
+
+.figure--activites--double--larger {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #f2f2f2;
+    margin: 0;
+}
+.figure--activites--double--larger img {
+    height: 151px;
+}
+.figure--activites--double--smaller img {
+    height: 151px;
+}
+.figcaption--activites {
+    align-items: center;
+    margin-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+/*footer*/
+footer {
+    background: #f2f2f2;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-left: -3%;
+    margin-right: -3%;
+}
+#navbar--footer--second ul {
+    margin-left: 0px;
+}
+#navbar--footer--third ul {
+    margin-left: 0px;
+}

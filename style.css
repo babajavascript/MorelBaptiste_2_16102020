@@ -9,10 +9,7 @@ a {
     text-decoration: none;
     color: black;
 }
-a:visited {
-    text-decoration: none;
-    color: black;
-}
+
 /* Header + H1 H2 */
 #containerHeader {
     display: flex;
@@ -28,7 +25,7 @@ a:visited {
     list-style: none;
     text-decoration: none;
 }
-.liMenu--list_blue {
+.liMenu--list_blue a {
     color: #0065fc;
 }
 .link--navbar {
@@ -41,7 +38,6 @@ a:visited {
     padding-top: 42px;
 }
 .link--navbar:hover {
-    color: #0065fc;
     border-top: 4px solid #0065fc;
 }
 h1 {
@@ -103,6 +99,9 @@ h2 {
     margin-left: 30px;
     transition: transform 200ms ease-in-out;
     user-select: none;
+}
+.filtre--texte{
+    display: none;
 }
 .filtre i {
     padding: 16px;
