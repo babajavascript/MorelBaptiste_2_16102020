@@ -11,15 +11,11 @@
     margin-left: -3%;
     margin-right: -3%;
 }
-.mobile--header img {
-    margin-top: -13px;
-}
 .mobile--header {
     display: flex;
     justify-content: space-between;
-}
-ul {
-    padding-inline-start: 0px;
+}ul {
+    padding: 0px;
 }
 .mobile--header a {
     display: inline-block;
