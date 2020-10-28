@@ -85,6 +85,9 @@ h2 {
     width: 25px;
     margin-left: -15px;
 }
+.text--input{
+    width: 160px;
+}
 /*filtres and information*/
 
 /*Section hebergement and populaire*/
@@ -107,10 +110,10 @@ h2 {
     margin-right: -3%;
 }
 .figure--hebergement {
-    width: 350px;
+    width: 260px;
 }
 .figure--hebergement img {
-    width: 350px;
+    width: 260px;
     height: 120px;
 }
 #figure--position--hebergement{
@@ -122,6 +125,11 @@ h2 {
     flex-direction: column;
     margin-left: 0px;
     margin-right: 0px;
+}
+.figcaption--populaire {
+    margin-left: 15px;
+    width: 130px;
+    font-size: 12px;
 }
 
 /* filtre */
@@ -168,19 +176,19 @@ h2 {
     margin: 10px;
 }
 .figure--activites img {
-    width: 350px;
+    width: 260px;
     height: 180px;
 }
 .figure--activites--double--larger img {
-    width: 350px;
+    width: 260px;
     height: 180px;
 }
 .figure--activites--double--smaller img {
-    width: 350px;
+    width: 260px;
     height: 180px;
 }
 .figure--activites--double--normal img {
-    width: 350px;
+    width: 260px;
     height: 180px;
 }
 /*footer*/
