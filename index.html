@@ -19,14 +19,18 @@
     <!--Logo + navbar-->
     <header>
         <div id="containerHeader">
+            <div class="mobile--header">
             <img src="images/logo/Reservia.svg" class="test" alt="Logo reservia">
+            <li class="liMenu--list liMenu--list_mobile"><a href="#" class="link--navbar">S'inscrire</a></li>
+        </div>
             <nav class="Navmenu">
                 <ul class="liMenu">
+                    <li class="liMenu--list liMenu--list_blue"><a href="#" class="link--navbar">S'inscrire</a></li>
                     <li class="liMenu--list liMenu--list_nocolor"><a href="#containerHebergement"
-                            class="link--navbar">Hebergement</a></li>
+                            class="link--navbar blue--mobile">Hebergement</a></li>
                     <li class="liMenu--list liMenu--list_nocolor"><a href="#containerActivites"
                             class="link--navbar">Activités</a></li>
-                    <li class="liMenu--list liMenu--list_blue"><a href="#" class="link--navbar test">S'inscrire</a></li>
+                    
                 </ul>
             </nav>
         </div>
@@ -39,7 +43,7 @@
         <div id="containerBtn">
             <div class="btn--first"><i class="fas fa-map-marker-alt"></i></div>
             <input type="texte" class="text--input"></input>
-            <div class="btn--second">Rechercher</div>
+            <div class="btn--second"><span class="search">Rechercher</span><i class="fas fa-search"></i></div>
         </div>
         
         <span class="filtre--texte">Filtres</span>
