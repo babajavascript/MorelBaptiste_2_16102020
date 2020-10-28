@@ -79,6 +79,8 @@ h2 {
 }
 .fa-search {
     display: inline;
+    opacity: 1;
+    position: relative;
 }
 .btn--second {
     border-radius: 10px 10px 10px 10px;
