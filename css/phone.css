@@ -112,14 +112,14 @@ h2 {
     margin-right: -3%;
 }
 .figure--hebergement {
-    width: 340px;
+    width: 330px;
 }
 .figure--hebergement img {
-    width: 340px;
+    width: 330px;
     height: 120px;
 }
 #figure--position--hebergement{
-    margin-left: 0px;
+    margin-left: -3px;
     margin-right: 0px;
 }
 #figure--position--populaire {
@@ -170,27 +170,27 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -14px;
+   
 }
 .link--activites {
     border-radius: 10px;
     margin: 10px;
 }
 .figure--activites img {
-    width: 340px;
+    width: 330px;
     height: 180px;
 }
 .figure--activites--double--larger img {
-    width: 340px;
+    width: 330px;
     height: 180px;
 }
 .figure--activites--double--smaller img {
-    width: 340px;
+    width: 330px;
     height: 180px;
 }
 .figure--activites--double--normal img {
-    width: 340px;
+    width: 330px;
     height: 180px;
 }
 /*footer*/
